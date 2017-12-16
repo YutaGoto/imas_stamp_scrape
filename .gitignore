@@ -13,6 +13,8 @@
 # Used by dotenv library to load environment variables.
 # .env
 
+.DS_store
+
 ## Specific to RubyMotion:
 .dat*
 .repl_history
@@ -28,6 +30,10 @@ build-iPhoneSimulator/
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
 # vendor/Pods/
+vendor
+img
+new_img
+config/setting.yml
 
 ## Documentation cache and generated files:
 /.yardoc/
